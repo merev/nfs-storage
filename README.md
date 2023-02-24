@@ -1,4 +1,5 @@
 # NFS Storage
+
 This is an automated solution for NFS Storage created through Vagrant. Follow the steps below:
  - clone the repository; 
  - open the directory in terminal;
