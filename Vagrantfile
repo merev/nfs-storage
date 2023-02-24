@@ -6,7 +6,7 @@ ENV['VAGRANT_EXPERIMENTAL'] = "disks"
 Vagrant.configure("2") do |config|
   config.ssh.insert_key = false
   config.vm.box_download_insecure=true
-  config.vm.disk :disk, size: "10GB", name: "extra_storage1"
+  config.vm.disk :disk, size: "15GB", name: "extra_storage1"
 
   config.vm.provider "virtualbox" do |v|
     v.gui = false
